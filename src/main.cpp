@@ -109,7 +109,7 @@ class $modify(MyLevelCell, LevelCell) {
             return;
         }
 
-        std::string URL = fmt::format("https://raw.githubusercontent.com/liamAJ2016/amongus-thumbs/main/thumbs/{}.png",(int)m_level->m_levelID);
+        std::string URL = fmt::format("https://tjcsucht.net/thumbs/sussy/{}.png",(int)m_level->m_levelID);
         int id = m_level->m_levelID.value();
 
         auto req = web::WebRequest();
